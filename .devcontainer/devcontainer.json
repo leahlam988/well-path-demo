@@ -1,0 +1,23 @@
+{
+  "image": "node:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "PKief.material-icon-theme",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  },
+  "forwardPorts": [
+    5173
+  ],
+  "runArgs": [
+    "-p",
+    "5173:5173"
+  ]
+}
